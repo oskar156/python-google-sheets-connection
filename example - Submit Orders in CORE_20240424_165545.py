@@ -6,13 +6,13 @@ script_file_name = 'Submit Orders in CORE_20240424_165545'
 #SET UP DATA
 _HEADER_ROW_ = 1
 _FIRST_ROW_ = 3
-core_login_url = 'https://coregiant.com/login/'
-core_create_new_po_url = 'https://coregiant.com/po/new/id/'
-core_claim_po_url = 'https://coregiant.com/po/claim/id/'
-core_complete_po_url = 'https://coregiant.com/po/complete/id/'
+core_login_url = 'core_login_url'
+core_create_new_po_url = 'core_create_new_po_url'
+core_claim_po_url = 'core_claim_po_url'
+core_complete_po_url = 'core_complete_po_url'
 google_sheet_id = '1bN3nhB6GRyDRj2SosTvW1SRUn1lMp3SOKrVOMKVGbwc'
-username = 'oscar@giantpartners.com'
-password = 'gigantic134!'
+username = 'username'
+password = 'password'
 exe_path=r'C:\Program Files\Mozilla Firefox\firefox.exe'
 driver_path=r'E:\BROWSER AUTOMATION\geckodriver.exe'
 
@@ -41,7 +41,7 @@ NAME = [[],[],['GPPO247083-1_EM_OVERSIGHT','GPPO247220_2_EMOVERSIGHT_03','GPPO24
 
 FULL_PO = [[],[],['_','_','_','_','_','_','_','_','_','_','_','_','_','_','_'],['_','_','_'],['_','_','_'],[],[],['_','_','242959-20','242959-21','224661-380','224661-381','224661-382','246552-133','246552-134','246552-135','246552-136','246552-137','246552-138','246552-139','246552-140','246552-141','246552-142','246552-143','246552-144','246552-145','246552-146','246552-147','246552-148','246552-149','246552-150','246552-151','246552-152','246552-153','246552-154','246552-155','246552-156','246552-157','246552-158','246552-159','246552-160','246552-161','246552-162','246552-163','246552-164','246552-165','246552-166','246552-116','246552-117','246552-118','246552-119','246552-120','246552-121','246552-122','246552-123','246552-124','246552-125','246552-126','246552-127','246552-128','246552-129','246552-130','246552-131','246552-132','245013-9','245626-9','224661-377','224661-378','245475-11','224661-379','_','_'],['_','_','_','_'],[]]
 
-PO_LINK = [[],[],['_','_','_','_','_','_','_','_','_','_','_','_','_','_','_'],['_','_','_'],['_','_','_'],[],[],['_','_','https://coregiant.com/po/view/id/77508','https://coregiant.com/po/view/id/77509','https://coregiant.com/po/view/id/77510','https://coregiant.com/po/view/id/77511','https://coregiant.com/po/view/id/77512','https://coregiant.com/po/view/id/77513','https://coregiant.com/po/view/id/77514','https://coregiant.com/po/view/id/77515','https://coregiant.com/po/view/id/77516','https://coregiant.com/po/view/id/77517','https://coregiant.com/po/view/id/77518','https://coregiant.com/po/view/id/77519','https://coregiant.com/po/view/id/77520','https://coregiant.com/po/view/id/77521','https://coregiant.com/po/view/id/77522','https://coregiant.com/po/view/id/77523','https://coregiant.com/po/view/id/77524','https://coregiant.com/po/view/id/77525','https://coregiant.com/po/view/id/77526','https://coregiant.com/po/view/id/77527','https://coregiant.com/po/view/id/77528','https://coregiant.com/po/view/id/77529','https://coregiant.com/po/view/id/77530','https://coregiant.com/po/view/id/77531','https://coregiant.com/po/view/id/77532','https://coregiant.com/po/view/id/77533','https://coregiant.com/po/view/id/77534','https://coregiant.com/po/view/id/77535','https://coregiant.com/po/view/id/77536','https://coregiant.com/po/view/id/77537','https://coregiant.com/po/view/id/77538','https://coregiant.com/po/view/id/77539','https://coregiant.com/po/view/id/77540','https://coregiant.com/po/view/id/77541','https://coregiant.com/po/view/id/77542','https://coregiant.com/po/view/id/77544','https://coregiant.com/po/view/id/77546','https://coregiant.com/po/view/id/77547','https://coregiant.com/po/view/id/77548','https://coregiant.com/po/view/id/77315','https://coregiant.com/po/view/id/77316','https://coregiant.com/po/view/id/77317','https://coregiant.com/po/view/id/77318','https://coregiant.com/po/view/id/77319','https://coregiant.com/po/view/id/77320','https://coregiant.com/po/view/id/77321','https://coregiant.com/po/view/id/77322','https://coregiant.com/po/view/id/77323','https://coregiant.com/po/view/id/77324','https://coregiant.com/po/view/id/77325','https://coregiant.com/po/view/id/77326','https://coregiant.com/po/view/id/77327','https://coregiant.com/po/view/id/77328','https://coregiant.com/po/view/id/77329','https://coregiant.com/po/view/id/77330','https://coregiant.com/po/view/id/77331','https://coregiant.com/po/view/id/77332','https://coregiant.com/po/view/id/77333','https://coregiant.com/po/view/id/77334','https://coregiant.com/po/view/id/77335','https://coregiant.com/po/view/id/77336','https://coregiant.com/po/view/id/77337','_','_'],['_','_','_','_'],[]]
+PO_LINK = [] #redacted
 
 first_row_index_per_sheet = [0,0,7,12,11,0,0,28,10,0]
 
